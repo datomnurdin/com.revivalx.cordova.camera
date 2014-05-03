@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.revivalx.cordova.camera" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>CameraCordova</name>
+    <description>
+        This source code provides example for taking pictures and for choosing images from the system's image library.
+    </description>
+    <author email="nurdinnorazanservices@gmail.com" href="http://revivalx.com">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+</widget>

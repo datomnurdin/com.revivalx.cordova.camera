@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta content="telephone=no" name="format-detection">
+    <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+    <meta content=
+    "user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi"
+    name="viewport">
+    <script src="cordova.js" type="text/javascript"></script>
+	<script src="js/index.js" type="text/javascript"></script>
+    <title>Camera Cordova Plugin</title>
+</head>
+
+<body>
+    <button onclick="capturePhoto();">Capture Photo</button><br>
+    <button onclick="getPhoto(pictureSource.PHOTOLIBRARY);">From Photo
+    Library</button><br>
+    <img id="image" src="" style="display:none;width:100%;">
+</body>
+</html>
